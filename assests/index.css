@@ -1,0 +1,76 @@
+.navigation .menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+.navigation li a{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.navigation li a:hover{
+    color: green;
+}
+.active{
+    color:green !important;
+}
+.navigation::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background: url(../assests/media/top.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: .6;
+}
+
+
+
+#home{
+    height: 747px;
+}
+
+.heading-button a{
+    text-decoration: none;
+    color: black;
+    border:2px solid black;
+    padding: 5px 40px;
+    transition: all .2s ease-in-out;
+}
+.heading-button a:hover{
+    
+    background-color: black;
+    color:white
+}
+#home li{
+    margin-bottom: 20px;
+}
+.experience-card div{
+    width: 300px;
+    height: 200px;
+    background-color: #eeeedd;
+
+}
+.experience-card{
+    transition: all .3s ease-in-out;
+}
+.experience-card:hover{
+   transform: rotate(360deg);
+}
+.education-cart div{
+ width: 350px;
+ height: 350px;
+ 
+ border-radius: 50%;
+}
+
+.skill-card div{
+    width: 300px;
+    height: 100px;
+    background-color: #eeeedd;
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+}
